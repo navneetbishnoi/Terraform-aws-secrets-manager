@@ -30,11 +30,6 @@ variable "managedby" {
   description = "ManagedBy, eg 'navneetbishnoi'"
 }
 
-variable "attributes" {
-  type        = list(any)
-  default     = []
-  description = "Additional attributes (e.g. `1`)."
-}
 
 variable "enabled" {
   type        = bool
