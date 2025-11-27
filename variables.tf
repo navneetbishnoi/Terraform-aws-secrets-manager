@@ -42,7 +42,6 @@ variable "recovery_window_in_days" {
   type        = number
   default     = 30
 }
-
 # Secrets
 variable "secrets" {
   description = "List of secrets to keep in AWS Secrets Manager"
